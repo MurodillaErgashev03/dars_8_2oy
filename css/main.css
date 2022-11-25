@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 html {
   box-sizing: border-box;
 }
@@ -15,7 +16,6 @@ h1, h2, h3, h4, h5, h6, p {
 ul, ol {
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 
 a {
@@ -30,10 +30,116 @@ img {
 
 body {
   margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #242527;
+  color: white;
 }
 
 .container {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.site-header {
+  margin-top: 20px;
+}
+
+.site-header__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-header__top-box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid red;
+  border-radius: 50%;
+  background-image: url(../../img/img-lock.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  position: relative;
+}
+
+.site-header__bottom-box {
+  width: 70px;
+  height: 70px;
+  border: 2px solid green;
+  border-radius: 50%;
+  background-color: pink;
+  background-image: url(../../img/boy-img.jpg);
+  background-size: 100%;
+  z-index: 10;
+  position: absolute;
+  margin-left: 83px;
+  margin-top: 90px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero__title {
+  margin-top: 40px;
+}
+
+.hero-text {
+  max-width: 700px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pover {
+  margin-top: 40px;
+}
+
+.pover__text {
+  margin-top: 10px;
+}
+
+.pover__img {
+  width: 40px;
+  margin-right: 40px;
+}
+
+.pover__item {
+  margin-bottom: 5px;
+}
+
+.pover__block {
+  margin-top: 10px;
+  display: flex;
+  padding: 20px;
+  background-color: #333436;
+  border-radius: 15px;
+}
+
+.pover__bottom-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.pover__button {
+  padding: 15px 5px;
+  margin-bottom: 15px;
+  background-color: #2475E1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.pover__button-1 {
+  padding: 15px 5px;
+  background-color: #333436;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 19px;
 }/*# sourceMappingURL=main.css.map */
